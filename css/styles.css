@@ -1,4 +1,4 @@
-/* This sytle applies color to all h tags. */
+/* This style applies color to all h tags. */
 h1, h2, h3 {
     background-color: lightblue;
     }
@@ -6,11 +6,48 @@ h1, h2, h3 {
 ul p {
     background-color: yellow;
 }
-
+/* Anchor tags that are children of p tag. */
 p > a {
     background-color: orange;
 }
 /* applying color to the US cities class */
 .usa {
     color: green;
+}
+/*Styling a table*/
+#table_style {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: antiquewhite;
+}
+
+#table_style th {
+    border: 1px solid black;
+    padding: 10px;
+    color: darkviolet;
+}
+
+#table_style td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#ul_1 {
+   list-style-position: inside;
+   list-style-type: circle;
+}
+
+#ul_2 {
+   list-style-position: inside;
+   list-style-type: square;
+}
+
+#ol_1 {
+   list-style-position: inside;
+   list-style-type: upper-roman;
+}
+
+#ol_2 {
+   list-style-position: outside;
+   list-style-type: lower-roman;
 }
