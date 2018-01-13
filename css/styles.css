@@ -1,0 +1,16 @@
+/* This sytle applies color to all h tags. */
+h1, h2, h3 {
+    background-color: lightblue;
+    }
+/* Applies color to the p tag nested in the unordered list */
+ul p {
+    background-color: yellow;
+}
+
+p > a {
+    background-color: orange;
+}
+/* applying color to the US cities class */
+.usa {
+    color: green;
+}
