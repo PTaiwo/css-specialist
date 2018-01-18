@@ -1,0 +1,47 @@
+/* Styling the main body */
+.main_body {
+    margin: 0px;
+    padding: 5px;    
+    background-image: url('../images/rsz_1img_0351.jpg'); /
+    background-repeat: no-repeat;
+    
+    
+    
+}
+/* Applying Google fonts to the h1 tag */
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 55px;
+    font-weight: bolder;
+}
+/* Changing ul bullet style to squares */
+ul {
+    list-style-type: square;
+}
+/* Creating the menu */
+#my_menu .submenu ul {
+    display: none;
+    position: fixed;
+    background-color: lightblue;
+    list-style-type: none;
+    border-left: 3px solid lightsalmon;
+    border-right: 3px solid lightsalmon;
+    border-bottom: 3px solid lightsalmon;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+#my_menu .submenu:hover ul {
+    display: block;
+}
+
+#my_menu {
+    background-color: lightblue;    
+}
+
+#my_menu td{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+

@@ -1,0 +1,30 @@
+#s3 {
+    display: block;
+}
+#p1 {
+    display: inline;
+    background-color: yellow;
+}
+
+#p2 {
+    display: inline;
+    background-color: lightblue;
+}
+
+
+#img1 {    
+    top: 300px;
+    left: 200px;
+    
+    display: block;
+    position: fixed;
+    
+}
+
+#img2 {    
+    top: 500px;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    
+}

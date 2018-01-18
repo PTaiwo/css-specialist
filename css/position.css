@@ -1,0 +1,10 @@
+.show-bkg {
+    background-color: grey;    
+}
+
+#target {
+    background-color: rgb(150,150,255);
+    top: 50%;
+    position: fixed;
+    
+}
